@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bhagya's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function () {
+      emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
+    })();
+  </script>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="#" class="nav-logo">Bhagya Dewmini</a>
+    <ul class="nav-links">
+  <li><a href="#home" data-page="home" class="active">Home</a></li>
+  <li><a href="#skills" data-page="skills">Skills</a></li>
+  <li><a href="#projects" data-page="projects">Projects</a></li>
+  <li><a href="#certificates" data-page="certificates">Certificates</a></li>
+  <li><a href="#contact" data-page="contact">Contact</a></li>
+</ul>
+
+  </div>
+</nav>
+
+<div class="content">
+  <section id="home" class="page active">
+     <div class="photo-container">
+      <img src="bhagya.png" alt="Bhagya's Photo" class="profile-photo">
+    </div>
+    <h1>Welcome to Bhagya's Portfolio</h1>
+    <div class="home-content">
+            <h3><p>I'm a software engineer with experience for four projects in university.
+                <br>expertise is to create and website design, frontend design , full stack development. </p></h3>
+                <p>I am currently pursuing a Bachelor's degree in Software Engineering at the <br>Informatics Institute of Technology, and I am expected to graduate in 2027.<br>
+
+                I have a strong interest in programming and technology. I have experience in <br>Object-Oriented Programming and have worked with languages like Java and Python.<br>Additionally, I specialize in web development, using technologies such as<br> React.js, Node.js, JavaScript, CSS, and HTML.
+                
+                My ambition is to become a <br>skilled software engineer. I am passionate about learning new technologies <br>and improving my skills to develop innovative and efficient software solutions. <br>I believe that continuous learning and problem-solving are key to success in this field,<br> and I am excited about the opportunities ahead.</p>
+            
+           <div class="contact-icons">
+                <a href="javascript:void(0);" id="home-email-icon" title="Show Email">
+                <img src="icons8-email-open-50.png" alt="Email" />
+                </a>
+                <span id="home-email-address" style="display: none;margin-top: 0px; font-size: 18px;"><h3>bhagyadewmini2002@gmail.com</h3></span>
+
+                <a href="javascript:void(0);" id="home-phone-icon" title="Show Phone">
+                <img src="icons8-phone-50.png" alt="Phone" />
+                </a>
+                <span id="home-phone-number" style="display: none;margin-top: 0px; font-size: 18px;"><h3>+94 702031142</h3></span>
+
+                <a href="https://www.linkedin.com/in/bhagya-dewmini-3b3b3b294" target="_blank" title="LinkedIn">
+                <img src="icons8-linkedin-50.png" alt="LinkedIn" />
+                </a>
+
+                <a href="Bhagya_Dewmini.pdf" download="Bhagya Dewmini.pdf" class="cv-download-btn">Download My CV (PDF)</a>
+
+
+           </div>
+
+    </div>
+  </section>
+
+  <section id="skills" class="page">
+    <h1 class="heading1">Skills</h1>
+
+    <h2 class="heading1">Technical Skills</h2>
+    <div class="skill">
+      <h3>Python <span>90%</span></h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 90%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>React.js <span>90%</span></h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 90%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>HTML <span>90%</span></h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 90%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>CSS <span>90%</span></h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 90%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>Javascript <span>90%</span></h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 90%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>Java <span>85%</span></h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 85%;"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <h3>Node.js <span>80%</span></h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 80%;"></div>
+      </div>
+    </div>
+
+    <h2 class="heading1">Soft Skills</h2>
+    <div class="circle-skill-container">
+      <div class="circle-skill">
+        <div class="circle" data-percent="95">
+          <span class="value">95%</span>
+        </div>
+        <p>Communication</p>
+      </div>
+
+      <div class="circle-skill">
+        <div class="circle" data-percent="90">
+          <span class="value">90%</span>
+        </div>
+        <p>Creativity</p>
+      </div>
+
+      <div class="circle-skill">
+        <div class="circle" data-percent="90">
+          <span class="value">90%</span>
+        </div>
+        <p>Problem Solving</p>
+      </div>
+
+      <div class="circle-skill">
+        <div class="circle" data-percent="95">
+          <span class="value">95%</span>
+        </div>
+        <p>Team Work</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="page">
+    <h1 class="heading1">Projects</h1>
+    
+            <div class="project">
+                <h2 class="head2">Real-Time Event Ticket-Selling System</h2>
+                <p class="paragraph"><strong>Technologies Used:</strong> React, Node.js, Java</p>
+                <p class="paragraph">Developed as part of an object-oriented programming module, this system allows users to browse and purchase event tickets in real-time with secure payment integration and seat selection.</p> 
+            </div>
+            <div class="project">
+                <h2 class="head2">Plane Seat Management System</h2>
+                <p class="paragraph"><strong>Technologies Used:</strong> Java</p>
+                <p class="paragraph">A system designed to manage and allocate plane seats efficiently, built as part of the Software Development II module.</p>
+            </div>
+            <div class="project">
+                <h2 class="head2">Progression Outcome Prediction System</h2>
+                <p class="paragraph"><strong>Technologies Used:</strong> Python</p>
+                <p class="paragraph">Created for schools to predict student progression outcomes based on academic performance, developed as part of the Software Development I module.</p>
+            </div>
+            <div class="project">
+                <h2 class="head2">Digital Well-being Website (Sitemap & Gallery Page)</h2>
+                <p class="paragraph"><strong>Technologies Used:</strong> JavaScript, HTML, CSS</p>
+                <p class="paragraph">Developed sitemap and interactive gallery page for a digital well-being website as part of the Web Design module.</p>
+            </div>
+  </section>
+
+  <section id="certificates" class="page">
+    <h1 class="heading1" >Certificates</h1>
+  <div class="certificate-gallery">
+
+    <a href="github.jpeg" target="_blank">
+      <img src="github.jpeg" alt="Certificate 1" class="certificate-thumbnail">
+    </a>
+
+    <a href="PHP.jpeg" target="_blank">
+      <img src="PHP.jpeg" alt="Certificate 1" class="certificate-thumbnail">
+    </a>
+
+    <a href="Node.jpeg" target="_blank">
+      <img src="Node.jpeg" alt="Certificate 1" class="certificate-thumbnail">
+    </a>
+
+    <a href="React.jpeg" target="_blank">
+      <img src="React.jpeg" alt="Certificate 1" class="certificate-thumbnail">
+    </a>
+  </section>
+
+  <section id="contact" class="page">
+    <h1>Contact Me</h1>
+
+    <form id="contactForm">
+      <input type="text" name="from_name" placeholder="Your Name" required />
+      <input type="email" name="reply_to" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+
+
+    <div class="contact-icons">
+                <a href="javascript:void(0);" id="contact-email-icon" title="Show Email">
+                <img src="icons8-email-open-50.png" alt="Email" />
+                </a>
+                <span id="contact-email-address" style="display: none;margin-top: 0px; font-size: 18px;"><h3>bhagyadewmini2002@gmail.com</h3></span>
+
+                <a href="javascript:void(0);" id="contact-phone-icon" title="Show Phone">
+                <img src="icons8-phone-50.png" alt="Phone" />
+                </a>
+                <span id="contact-phone-number" style="display: none;margin-top: 0px; font-size: 18px;"><h3>+94 70 203 1142</h3></span>
+
+                <a href="https://www.linkedin.com/in/bhagya-dewmini-3b3b3b294" target="_blank" title="LinkedIn">
+                <img src="icons8-linkedin-50.png" alt="LinkedIn" />
+                </a>
+           </div>
+    
+    
+  </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
